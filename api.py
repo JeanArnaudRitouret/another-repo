@@ -5,5 +5,5 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    string_to_return = 'Working like a charm'
+    string_to_return = 'Nor Working'
     return string_to_return
