@@ -5,4 +5,5 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return "Hello from Cloud Run CD"*2
+    string_to_return = 'Working like a clockwork'
+    return string_to_return
